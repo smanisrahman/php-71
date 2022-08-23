@@ -1,40 +1,155 @@
-.col-1{width: 8.33%;}
-.col-2{width: 16.66%;}
-.col-3{width: 25%;}
-.col-4{width: 33.33%;}
-.col-5{width: 41.66%;}
-.col-6{width: 50%;}
-.col-7{width: 58.33%;}
-.col-8{width: 66.66%;}
-.col-9{width: 75%;}
-.col-10{width: 83.33%;}
-.col-11{width: 91.66%;}
-.col-12{width: 100%;}
-
-
-[class*='col-']{
-    float: left;
-    border: 1px solid gray;
+* {
     box-sizing: border-box;
 }
 
-.row:after{
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+[class*='col-'] {
+    float: left;
+    border: 1px solid gray;
+}
+
+.row:after {
     content: '';
     clear: both;
     display: block;
 }
 
-.wrapper{
+.wrapper {
     width: 90%;
     height: auto;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
 
-.slogan-height{height: 100px;}
-.header-height{height: 350px;}
-.menu-height{height: 50px;}
-.content-height{height: 600px;}
-.side-content-height{height: 299px;}
-.big-footer-height{height: 300px;}
-.footer-height{height: 40px;}
+.slogan-height {
+    height: 100px;
+}
 
+.header-height {
+    height: 350px;
+}
+
+.menu-height {
+    height: 60px;
+}
+
+.content-height {
+    height: 600px;
+}
+
+.side-content-height {
+    height: 299px;
+}
+
+.big-footer-height {
+    height: 300px;
+}
+
+.footer-height {
+    height: 40px;
+}
+
+.slogan {
+    background-color: #6799D6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: antiquewhite;
+    padding-top: 15px;
+
+}
+
+.half-header{
+    background-image: url(../images/water.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.rename {
+    color: crimson;
+}
+
+.full-header{
+    background-image: url(../images/hill.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* nav{
+    margin-left: 50px;
+} */
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    list-style: none;
+    float:left;
+    line-height: 56px;
+}
+
+.main-menu li a {
+    background-color:#000;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff ;
+    text-transform: uppercase;
+    padding: 0 20px;
+    border: 1px solid black;
+    display: block;
+    transition: 0.5s;
+}
+.main-menu li a:hover{
+    background-color: #B7AA75;
+    color: rgb(219, 27, 27);
+    border-radius: 3px;
+}
